@@ -77,6 +77,7 @@ JSON obj:
 ### `https://smallcase-app-1.herokuapp.com/trade-delete/<int:id>/`
 Purpose: A trade of a security can be removed from the portfolio reverting the changes it had when it was added[DELETE].
 * The DELETE method deletes that trade which has id as given id and reflects the changes in portfolio as well.
+
 Example:
 https://api-trade-test.herokuapp.com/trade-delete/1
 
