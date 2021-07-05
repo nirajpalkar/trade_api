@@ -13,23 +13,23 @@ https://api-trade-test.herokuapp.com/
 
 Purpose:
 * this route uses GET method to retrive data regarding API Overview from server, This path only accepts GET request
--------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 The routes are as follows:
--------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 ### https://api-trade-test.herokuapp.com/trade/
 Purpose:
 * this route uses GET method to retrive all trades from server, This path only accepts GET request
 
 Example:
 https://api-trade-test.herokuapp.com/trade/
---------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 ### https://api-trade-test.herokuapp.com/trade/<int:pk>
 Purpose:
 * this route uses GET method to retrive specific trade from server, This path only accepts GET request
 
 Example:
 https://api-trade-test.herokuapp.com/trade/1
---------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 ### https://api-trade-test.herokuapp.com/trade-add/
 Purpose:
 * this route uses POST method to send new data(JSON format) to server, This path only accepts GET request
@@ -51,7 +51,7 @@ JSON obj:
         "type": "buy"
 }
 ```
--------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
 ### https://api-trade-test.herokuapp.com/trade-update/<int:pk>
 Purpose:
 * this route uses PUT method to send data(JSON format) to update previous data from server, This path only accepts PUT request,
