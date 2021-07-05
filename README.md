@@ -77,13 +77,24 @@ JSON obj:
 ### `https://smallcase-app-1.herokuapp.com/trade-delete/<int:id>/`
 Purpose: A trade of a security can be removed from the portfolio reverting the changes it had when it was added[DELETE].
 * The DELETE method deletes that trade which has id as given id and reflects the changes in portfolio as well.
+Example:
+https://api-trade-test.herokuapp.com/trade-delete/1
+
 ------------------------------------------------------------------------------------------------------------------------------------
 
 ### `https://smallcase-app-1.herokuapp.com/portfolio` 
 Purpose : Fetch portfolio which is an aggregate view of all securities in the portfolio with its final quantity and average buy price[GET].
 * The GET method lists all the securities and average buy price along with shares count
+
+Example:
+https://api-trade-test.herokuapp.com/trade-portfolio/
 ------------------------------------------------------------------------------------------------------------------------------------
 
 ### `https://smallcase-app-1.herokuapp.com/returns`
 Purpose: The cumulative returns is calculated as `SUM((CURRENT_PRICE[ticker] - AVERAGE_BUY_PRICE[ticker]) * CURRENT_QUANTITY[ticker])` and this sum is returned as response.
 * The GET method fetches the total return value of the current portfolio.
+
+Example:
+https://api-trade-test.herokuapp.com/trade-returns/
+
+-------------------------------------------------------------------------------------------------------------------------------------
