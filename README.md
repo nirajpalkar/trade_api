@@ -1,4 +1,4 @@
-## Smallcase Backend Assignment-Portfolio tracking API
+## Backend Trade-Portfolio tracking API
 The aim of this project is to create an API which tracks the trades happening for every security.
 
 ## Tech stack
